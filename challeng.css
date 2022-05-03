@@ -1,0 +1,473 @@
+body{
+	height: 99%;
+	width: 99%;
+	background-color: #E6E6FA;
+	
+}
+.titulo-principal{
+	margin-left:  43%;
+	font-family: monospace;
+	color: 	#000000;
+	font-size:250%;
+	text-shadow:0 0 10px white;
+
+}
+
+
+#enviado{
+	height: 420px;
+	width: 400px;
+	margin-left: 10%;
+	display: inline-block;
+	background-color: #E6E6FA;
+	font-family: monospace;
+	font-size: 200%;
+	color: black;
+	border-style: none;
+	vertical-align: top;
+	text-align: center;
+	/*box-shadow: 10px 5px 5px black;*/
+	margin-top: 5%;
+
+
+
+}
+
+#enviado::placeholder {
+  color: black;
+}
+
+
+#recebido{
+	height: 420px;
+	width: 400px;
+	margin-left: 20%;
+	display: inline-block;
+	color: black;
+	border-style: none;
+	font-family: monospace;
+	font-size: 200%;
+    vertical-align: top;
+    background-color: #E6E6FA;
+    background-image: url('rindo.png');
+	background-size:100%  100%;
+	text-align: center;
+	/*box-shadow: 10px 5px 5px black;*/
+	margin-top: 5%;
+
+
+
+}
+
+#recebido::placeholder {
+  color: black;
+}
+#atencao{
+
+	font-size: 135%;
+	margin-left:  11%;
+	font-family: monospace;
+	color: 	#000000;
+	font-weight: bold;
+	text-shadow:0 0 5px white;
+	
+}
+
+#botao1{
+	width: 180px;
+	height: 30px;
+	color: #4682B4;
+	background: #000000;
+	border-style: none;
+	margin-left:  11%;
+	vertical-align: top;
+	display: inline;
+	font-size: 80%;
+	font-weight: bold;
+	box-shadow: 10px 5px 5px black;
+	cursor: pointer;
+}
+
+#botao2{
+
+	width: 180px;
+	height: 30px;
+	color: #4682B4;
+	background: #000000;
+	border-style: none;
+	vertical-align: top;
+	display: inline;
+	margin-left:  1%;
+	font-size: 80%;
+	font-weight: bold;
+	box-shadow: 10px 5px 5px black;
+	cursor: pointer;
+}
+
+
+#copiar{
+	
+	width: 180px;
+	height: 30px;
+	color: #4682B4;
+	background: #000000;
+	border-style: none;
+	margin-left:  30%;
+	vertical-align: top;
+	display: inline;
+	font-size: 80%;
+	font-weight: bold;
+	box-shadow: 10px 5px 5px black;
+	cursor: pointer;
+}
+
+#linke{
+	height: 45px;
+	width: 45px;
+	margin-left:47%; 
+	margin-top: 5%;
+	display: inline-block;
+	box-shadow: 10px 5px 5px black;
+	cursor: pointer;
+}
+
+#git{
+	height: 50px;
+	width: 50px; 
+	margin-top: 5%;
+	display: inline-block;
+	box-shadow: 10px 5px 5px black;
+	cursor: pointer;
+}
+
+@media(max-width: 1230px){
+	
+	#recebido{
+		height: 315px;
+		width: 300px;
+	}
+
+	#enviado{
+		height: 315px;
+		width: 300px;
+	}
+
+	#botao1{
+	width: 135px;
+	height: 22px;
+	font-size: 64%;
+	}
+
+	#botao2{
+	width: 135px;
+	height: 22px;
+	font-size: 64%;
+	}
+
+	#copiar{
+	width: 135px;
+	height: 22px;
+	font-size: 64%;
+	}
+
+	.titulo-principal{
+	font-size: 187%;
+	}
+
+	#atencao{
+
+		font-size: 101%;
+	}
+
+	.inputs{
+	font-size: 150%;
+	}
+
+	#linke{
+	height: 37px;
+	width: 37px;
+	}
+
+	#git{
+	height: 37px;
+	width: 37px;
+	}	
+}
+
+@media(max-width: 1000px){
+
+	#recebido{
+		height: 265px;
+		width: 250px;
+	}
+
+	#enviado{
+		height: 265px;
+		width: 250px;
+	}
+
+
+	#botao1{
+	width: 113px;
+	height: 18px;
+	font-size:53%;
+	}
+
+	#botao2{
+	width: 113px;
+	height: 18px;
+	font-size: 53%;
+	}
+
+	#copiar{
+	width: 113px;
+	height: 18px;
+	font-size: 53%;
+	}
+
+	.titulo-principal{
+	font-size: 157%;
+	}
+
+	#atencao{
+
+		font-size: 84%;
+	}
+
+	.inputs{
+	font-size: 126%;
+	}
+
+	#linke{
+	height: 31px;
+	width: 31px;
+	}	
+
+	#git{
+	height: 31px;
+	width: 31px;
+	}	
+}
+
+
+@media(max-width: 800px){
+
+	#recebido{
+		height: 238px;
+		width: 225px;
+	}
+
+	#enviado{
+		height: 238px;
+		width: 225px;
+	}
+
+	#botao1{
+	width: 101px;
+	height: 16px;
+	font-size: 47%;
+	}
+
+	#botao2{
+	width: 101px;
+	height: 16px;
+	font-size: 47%;
+	}
+
+	#copiar{
+	width: 101px;
+	height: 16px;
+	font-size: 47%;
+	}
+
+	.titulo-principal{
+	font-size: 141%;
+	}
+
+	#atencao{
+
+		font-size: 75%;
+	}
+
+	.inputs{
+	font-size: 113%;
+	}
+
+	#linke{
+	height: 28px;
+	width: 28px;
+	}	
+	
+	#git{
+	height: 28px;
+	width: 28px;
+	}
+	
+}
+
+@media(max-width: 700px){
+
+	#recebido{
+		height: 214px;
+		width: 202px;
+	}
+
+	#enviado{
+		height: 214px;
+		width: 202px;
+	}
+
+	#botao1{
+	width: 90px;
+	height: 14px;
+	font-size: 42%;
+	}
+
+	#botao2{
+	width: 90px;
+	height: 14px;
+	font-size: 42%;
+	}
+
+	#copiar{
+	width: 90px;
+	height: 14px;
+	font-size: 42%;
+	}
+
+
+	.titulo-principal{
+	font-size: 126%;
+	}
+
+	#atencao{
+
+		font-size: 65%;
+	}
+
+	.inputs{
+	font-size: 101%;
+	}
+
+	#linke{
+	height: 25px;
+	width: 25px;
+	}	
+	
+	#git{
+	height: 25px;
+	width: 25px;
+	}	
+}
+
+@media(max-width: 620px){
+
+	#recebido{
+		height: 192px;
+		width: 181px;
+	}
+
+	#enviado{
+		height: 192px;
+		width: 181px;
+	}
+
+	#botao1{
+	width: 81px;
+	height: 12px;
+	font-size: 41%;
+	}
+
+	#botao2{
+	width: 81px;
+	height: 12px;
+	font-size: 41%;
+	}
+
+	#copiar{
+	width: 81px;
+	height: 12px;
+	font-size: 41%;
+	}
+
+	.titulo-principal{
+	font-size: 113%;
+	}
+	
+	#atencao{
+
+		font-size: 58%;
+	}
+
+	.inputs{
+	font-size: 90%;
+	}
+
+	#linke{
+	height: 22px;
+	width: 22px;
+	}	
+
+	#git{
+	height: 22px;
+	width: 22px;
+	}	
+}
+
+@media(max-width: 550px){
+
+	#recebido{
+		height: 153px;
+		width: 144px;
+
+	}
+
+	#enviado{
+		height: 153px;
+		width: 144px;
+	}
+
+
+	#botao1{
+	width: 65px;
+	height: 10px;
+	font-size: 35%;
+	}
+
+	#botao2{
+	width: 65px;
+	height: 10px;
+	font-size: 35%;
+	}
+
+	#copiar{
+	width: 65px;
+	height: 10px;
+	font-size: 35%;
+	}
+
+	.titulo-principal{
+	font-size: 101%;
+	}
+
+	#atencao{
+
+		font-size: 46%;
+	}
+
+	.inputs{
+	font-size: 80%;
+	}
+
+	#linke{
+	height: 19px;
+	width: 19px;
+	}	
+
+	#git{
+	height: 19px;
+	width: 19px;
+	}	
+}
+
+
