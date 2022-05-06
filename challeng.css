@@ -1,473 +1,383 @@
 body{
-	height: 99%;
-	width: 99%;
+	
 	background-color: #E6E6FA;
 	
 }
-.titulo-principal{
-	margin-left:  43%;
-	font-family: monospace;
-	color: 	#000000;
-	font-size:250%;
-	text-shadow:0 0 10px white;
 
+#alura{
+	
+	margin-top:5%;
+  	margin-left: 5%;
+	
 }
 
+.main{
+	display: flex;
+	margin: auto;
+	min-width: 300px;
+	max-width: 1200px;	
+}
 
 #enviado{
+	
+	flex-direction: row;
+	width: 420px;
 	height: 420px;
-	width: 400px;
-	margin-left: 10%;
-	display: inline-block;
+	margin-left: 20%;
 	background-color: #E6E6FA;
 	font-family: monospace;
 	font-size: 200%;
 	color: black;
 	border-style: none;
-	vertical-align: top;
 	text-align: center;
 	/*box-shadow: 10px 5px 5px black;*/
 	margin-top: 5%;
+	outline: none;
 
 
 
 }
 
-#enviado::placeholder {
-  color: black;
+#enviado::placeholder{
+
+	color: gray;
 }
 
+.atencao{
+	
+	flex-direction: row;
+	font-size: 135%;
+	font-family: monospace;
+	color: 	#000000;
+	font-weight: bold;
+	text-shadow:0 0 5px white;
+	margin-top: 5%;
+	margin-left: 100px;
+	
+}
+
+.botoes{
+	
+	flex-direction: row;
+	margin-top: 5%;
+	width: 180px;
+	height: 30px;
+	color: #000000;	
+	background: #c8c8c8;
+	font-size: 80%;	
+	font-weight: bold;
+	border-style: none;
+	box-shadow: 10px 5px 5px black;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#botao1{
+	margin-left: 22%;
+	gap: 5px;
+}
+
+#botao2{
+	margin-left: 2%;
+}
 
 #recebido{
 	height: 420px;
-	width: 400px;
-	margin-left: 20%;
-	display: inline-block;
+	width: 420px;
+	margin-left: 30%;
 	color: black;
 	border-style: none;
 	font-family: monospace;
 	font-size: 200%;
-    vertical-align: top;
     background-color: #E6E6FA;
-    background-image: url('rindo.png');
+    background-image: url('imagens/rindo.png');
 	background-size:100%  100%;
 	text-align: center;
 	/*box-shadow: 10px 5px 5px black;*/
 	margin-top: 5%;
+	outline: none;
 
 
 
 }
 
 #recebido::placeholder {
-  color: black;
+  color: gray;
 }
-#atencao{
-
-	font-size: 135%;
-	margin-left:  11%;
-	font-family: monospace;
-	color: 	#000000;
-	font-weight: bold;
-	text-shadow:0 0 5px white;
-	
-}
-
-#botao1{
-	width: 180px;
-	height: 30px;
-	color: #4682B4;
-	background: #000000;
-	border-style: none;
-	margin-left:  11%;
-	vertical-align: top;
-	display: inline;
-	font-size: 80%;
-	font-weight: bold;
-	box-shadow: 10px 5px 5px black;
-	cursor: pointer;
-}
-
-#botao2{
-
-	width: 180px;
-	height: 30px;
-	color: #4682B4;
-	background: #000000;
-	border-style: none;
-	vertical-align: top;
-	display: inline;
-	margin-left:  1%;
-	font-size: 80%;
-	font-weight: bold;
-	box-shadow: 10px 5px 5px black;
-	cursor: pointer;
-}
-
 
 #copiar{
-	
-	width: 180px;
-	height: 30px;
-	color: #4682B4;
-	background: #000000;
-	border-style: none;
-	margin-left:  30%;
-	vertical-align: top;
-	display: inline;
-	font-size: 80%;
-	font-weight: bold;
+	margin-top: 17.6%;
+	margin-left: 51%;
+}
+.contas{
+	background-color: #b6b6b6;
+	margin-top:6%;
+}
+ 
+#linke, #git{
+	height: 45px;
+	width: 45px;
+	margin-top: 2%;
+	display: inline-block;
 	box-shadow: 10px 5px 5px black;
 	cursor: pointer;
+	background-size:100%  100%;
 }
 
 #linke{
-	height: 45px;
-	width: 45px;
 	margin-left:47%; 
-	margin-top: 5%;
-	display: inline-block;
-	box-shadow: 10px 5px 5px black;
-	cursor: pointer;
 }
 
-#git{
-	height: 50px;
-	width: 50px; 
-	margin-top: 5%;
-	display: inline-block;
-	box-shadow: 10px 5px 5px black;
-	cursor: pointer;
+#final{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding-top: 1%;
+	text-align: center;
+}
+
+/* responsividade para tipos de telas diferentes: */
+
+@media(max-width: 1200px){
+	
+	#linke{
+		margin-left: 55%;
+	}
 }
 
 @media(max-width: 1230px){
 	
 	#recebido{
-		height: 315px;
-		width: 300px;
-	}
-
-	#enviado{
-		height: 315px;
-		width: 300px;
-	}
-
-	#botao1{
-	width: 135px;
-	height: 22px;
-	font-size: 64%;
-	}
-
-	#botao2{
-	width: 135px;
-	height: 22px;
-	font-size: 64%;
+		margin-left: 20%;
 	}
 
 	#copiar{
-	width: 135px;
-	height: 22px;
-	font-size: 64%;
+		margin-left: 40%;
 	}
-
-	.titulo-principal{
-	font-size: 187%;
-	}
-
-	#atencao{
-
-		font-size: 101%;
-	}
-
-	.inputs{
-	font-size: 150%;
-	}
-
 	#linke{
-	height: 37px;
-	width: 37px;
+		margin-left: 48%;
 	}
-
-	#git{
-	height: 37px;
-	width: 37px;
-	}	
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1150px){
+
+	#enviado{
+		margin-left: 10%;
+	}
+	
+	#recebido{
+		margin-left: 10%;
+		margin-top: 4%;
+	}
+
+	#copiar{
+		margin-left: 30%;
+		margin-top: 18.5%;
+	}
+
+	#botao1{
+		margin-left: 21%;
+	}
+	
+}
+
+@media(max-width: 1132px){
+	#botao1, #botao2{
+		margin-top: 0.5%;
+	}
+}
+
+@media(max-width: 1100px){
 
 	#recebido{
-		height: 265px;
-		width: 250px;
-	}
-
-	#enviado{
-		height: 265px;
-		width: 250px;
-	}
-
+		margin-top:4.5%;
+    }
 
 	#botao1{
-	width: 113px;
-	height: 18px;
-	font-size:53%;
-	}
-
-	#botao2{
-	width: 113px;
-	height: 18px;
-	font-size: 53%;
+		margin-left: 12%;
 	}
 
 	#copiar{
-	width: 113px;
-	height: 18px;
-	font-size: 53%;
+		margin-top: 19%;
+	}
+}
+@media(max-width: 1000px){
+	
+	.main{
+		display: block;
+		
+    }
+	
+	#recebido, #enviado{
+		margin-left: 25%;
+		
 	}
 
-	.titulo-principal{
-	font-size: 157%;
+	.atencao{
+		margin-left: 26%;
 	}
 
-	#atencao{
-
-		font-size: 84%;
+	#botao1{
+		margin-left: 26%;
 	}
 
-	.inputs{
-	font-size: 126%;
+	#copiar{
+		margin-left: 39%;
 	}
 
 	#linke{
-	height: 31px;
-	width: 31px;
-	}	
+		margin-left: 43.5%;
+	}
 
-	#git{
-	height: 31px;
-	width: 31px;
-	}	
 }
-
 
 @media(max-width: 800px){
 
-	#recebido{
-		height: 238px;
-		width: 225px;
-	}
-
-	#enviado{
-		height: 238px;
-		width: 225px;
-	}
-
-	#botao1{
-	width: 101px;
-	height: 16px;
-	font-size: 47%;
-	}
-
-	#botao2{
-	width: 101px;
-	height: 16px;
-	font-size: 47%;
-	}
-
 	#copiar{
-	width: 101px;
-	height: 16px;
-	font-size: 47%;
-	}
-
-	.titulo-principal{
-	font-size: 141%;
-	}
-
-	#atencao{
-
-		font-size: 75%;
-	}
-
-	.inputs{
-	font-size: 113%;
+		margin-left: 41%;
 	}
 
 	#linke{
-	height: 28px;
-	width: 28px;
-	}	
-	
-	#git{
-	height: 28px;
-	width: 28px;
-	}
-	
-}
+		margin-left: 47%;
+    }
 
+}
 @media(max-width: 700px){
-
-	#recebido{
-		height: 214px;
-		width: 202px;
-	}
-
-	#enviado{
-		height: 214px;
-		width: 202px;
-	}
-
-	#botao1{
-	width: 90px;
-	height: 14px;
-	font-size: 42%;
-	}
-
-	#botao2{
-	width: 90px;
-	height: 14px;
-	font-size: 42%;
+	
+	.main{
+		display: block;
+		
+    }
+	
+	#recebido, #enviado, #atenção, #botao1{
+		margin-left: 20%;
 	}
 
 	#copiar{
-	width: 90px;
-	height: 14px;
-	font-size: 42%;
-	}
-
-
-	.titulo-principal{
-	font-size: 126%;
-	}
-
-	#atencao{
-
-		font-size: 65%;
-	}
-
-	.inputs{
-	font-size: 101%;
+		margin-left: 39%;
 	}
 
 	#linke{
-	height: 25px;
-	width: 25px;
-	}	
-	
-	#git{
-	height: 25px;
-	width: 25px;
-	}	
+		margin-left: 45%;
+    }
+
 }
 
-@media(max-width: 620px){
+@media(max-width: 600px){
 
-	#recebido{
-		height: 192px;
-		width: 181px;
-	}
-
-	#enviado{
-		height: 192px;
-		width: 181px;
-	}
-
-	#botao1{
-	width: 81px;
-	height: 12px;
-	font-size: 41%;
-	}
-
-	#botao2{
-	width: 81px;
-	height: 12px;
-	font-size: 41%;
+	
+	.main{
+		display: block;
+		
+    }
+	
+	#recebido, #enviado, .atencao, #botao1 {
+		margin-left: 15%;
 	}
 
 	#copiar{
-	width: 81px;
-	height: 12px;
-	font-size: 41%;
+		margin-left: 36%;
 	}
 
-	.titulo-principal{
-	font-size: 113%;
+	#linke{
+		margin-left: 44%;
+    }
+
+	.contas{
+		background-color: #E6E6FA;
+	}
+}
+
+@media(max-width: 375px){
+
+	#alura{
+		width: 30px;
+		height: 35px;
 	}
 	
-	#atencao{
-
-		font-size: 58%;
+	#enviado, #recebido{
+		width: 300px;
+		height: 340px;
+		margin-left: 2%;
+		font-size: 150%;
+		margin-top: 5%;
 	}
 
-	.inputs{
-	font-size: 90%;
-	}
-
-	#linke{
-	height: 22px;
-	width: 22px;
-	}	
-
-	#git{
-	height: 22px;
-	width: 22px;
-	}	
-}
-
-@media(max-width: 550px){
-
-	#recebido{
-		height: 153px;
-		width: 144px;
-
-	}
-
-	#enviado{
-		height: 153px;
-		width: 144px;
-	}
-
-
-	#botao1{
-	width: 65px;
-	height: 10px;
-	font-size: 35%;
+	.botoes{
+		width:100%;
+		height: 20%;
+		height: 26px;
+		margin-left:0%;
 	}
 
 	#botao2{
-	width: 65px;
-	height: 10px;
-	font-size: 35%;
+		margin-left:0%;
 	}
 
-	#copiar{
-	width: 65px;
-	height: 10px;
-	font-size: 35%;
+	.atencao{
+		margin-left: 2%;
+		font-size: 120%;
+		text-align: center;
+		
+	}
+	.contas{
+		background-color: #E6E6FA;
+	}
+		
+	#linke{
+		margin-left:39%;
+    }
+
+	#git, #linke{
+		height: 30px;
+		width: 30px;
 	}
 
-	.titulo-principal{
-	font-size: 101%;
+	#final{
+		font-size: 15px;
+		width: 300px;
+		margin-left: 6%;
+	}
+}
+
+@media(max-width: 320px){
+	
+	#enviado, #recebido{
+		width: 250px;
+		height: 320px;
+		margin-left: 1%;
+		font-size: 150%;
+		margin-top: 5%;
 	}
 
-	#atencao{
-
-		font-size: 46%;
+	.atencao{
+		font-size: 11px;
+		margin-left: 0%;
+		text-align: left;
 	}
 
-	.inputs{
-	font-size: 80%;
+	.botoes{
+		width:80%;
+		height: 28px;
+		margin-left:0%;
+		font-size: 70%;
 	}
 
 	#linke{
-	height: 19px;
-	width: 19px;
-	}	
+		margin-left: 35%;
+    }
 
-	#git{
-	height: 19px;
-	width: 19px;
-	}	
+	#git, #linke{
+		width: 30px;
+		height: 30px;
+	}
+
+	.contas{
+		background-color: #E6E6FA;
+	}
+	
+	#final{
+		font-size: 12px;
+		width: 90%;
+		margin-left: 0%;
+	}
 }
-
-

@@ -9,11 +9,16 @@ function pulaLinha() {
 
    function copiarTexto(){
         
+    
         var textoCopiado = document.getElementById('recebido')
         textoCopiado.select();//para selecionar o texto
         textoCopiado.setSelectionRange(0, 99999); //para dispositivos moveis
     
         document.execCommand("copy"); //vai copiar o texto selecionado
+        inputRecebido.style.backgroundImage= "url('rindo.png')";
+        inputRecebido.value = "";
+       
+        
     }
     
     var inputEnviado = document.getElementById('enviado');
@@ -42,6 +47,7 @@ function pulaLinha() {
 
         inputEnviado.value = "";
         inputEnviado.focus();
+        inputRecebido.style.backgroundImage= "none"; //quando a função for executada a imagem do texto recebido sumirá.
         }
 
     
@@ -56,7 +62,7 @@ function pulaLinha() {
         
         inputEnviado.value = "";
         inputEnviado.focus()
-        
+        inputRecebido.style.backgroundImage= "none"; 
         
     }
 

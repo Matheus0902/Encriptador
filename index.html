@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-<head>
-   <meta charset ="utf-8">
-   <title>ENCRIPTADOR</title>
-   <link rel="stylesheet" href="challeng.css">
-</head>
-<body>
- 
-   
-   <div class="inputs">
-      <textarea type="text" id="enviado" value="" placeholder="Digite sua mensagem..."></textarea>
-       
-      <textarea type="text" id="recebido" placeholder="Aguardando mensagem..."></textarea>
-   </div>
-   
-   <p id="atencao">⚠ Apenas letras minúsculas e sem acentos.<p> 
-   
-  <div class="botoes">
-      
-      <button type="button" onclick="criptografar()" id="botao1">CRIPTOGRAFAR</button>
-      <button type="button" onclick="descriptografar()" id="botao2">DESCRIPTOGRAFAR</button>
-      <button type="button" onclick="copiar()" id="copiar" >COPIAR</button>
-   
-   </div>
+   <head>
+      <meta charset ="utf-8">
+      <title>ENCRIPTADOR</title>
+      <link rel="stylesheet" href="challeng.css">
+   </head>
+   <body>
+      <section>
+         <header class="alura">
+          
+            <a href="https://www.alura.com.br/"><img src="imagens/logoAlura.png" id="alura" class="media-object  img-responsive img-thumbnail"></a>
      
-   <div class="contas">  
+         </header>
+    </section>
+
+      <main class="main">
+         
+         <section>
+               <textarea type="text" id="enviado" value="" pattern="\([a-z]+)" placeholder="Digite sua mensagem..."></textarea>
+            
+               <div>
+                  <h6 class="atencao">⚠ Apenas letras minúsculas e sem acento.</h6>
+               </div>
+               
+               <div>
+               
+                  <button class="botoes" type="button" onclick="criptografar()" id="botao1">CRIPTOGRAFAR</button>
+                  <button class="botoes" type="button" onclick="descriptografar()" id="botao2">DESCRIPTOGRAFAR</button>
+               </div>
+         
+         </section>  
       
-      <a href="https://www.linkedin.com/in/matheus-ant%C3%B4nio-6a2b6a218/"><img src="lin.png" id="linke" class="media-object  img-responsive img-thumbnail"></a>
+         <section>
+               <textarea type="text" id="recebido" placeholder="Aguardando mensagem..."></textarea>
+         
+               <button class="botoes" type="button" onclick="copiar()" id="copiar" >COPIAR</button>
+         </section>
 
-      <a href="https://github.com/settings/profile"><img src="git.png" id="git" class="media-object  img-responsive img-thumbnail"></a>
+      </main>
+       
+      <section>
+         
+         <div class="contas">  
+               <a href="https://www.linkedin.com/in/matheus-ant%C3%B4nio-6a2b6a218/"><img src="imagens/lin.png" id="linke" class="media-object  img-responsive img-thumbnail"></a>
+
+               <a href="https://github.com/Matheus0902"><img src="imagens/git.png" id="git" class="media-object  img-responsive img-thumbnail"></a>
+            
+               <p id="final">Desenvolverdor do Projeto: Matheus Antonio | Challenge 01 Alura </p>
+         </div>
+
+      </section>
+         
+   <script type="text/Javascript" src="challeng.js"></script>
+
+   </body>
       
-   </div>
-      <script type="text/Javascript" src="challeng.js"></script>
-
-</body>
-   
- 
-
-
 </html>
 
