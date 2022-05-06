@@ -193,7 +193,7 @@ body{
     }
 
 	#botao1{
-		margin-left: 12%;
+		margin-left: 14%;
 	}
 
 	#copiar{
@@ -303,14 +303,17 @@ body{
 	}
 
 	.botoes{
-		width:100%;
-		height: 20%;
+		width:75%;
 		height: 26px;
-		margin-left:0%;
+		font-size: 70%;
 	}
 
 	#botao2{
-		margin-left:0%;
+		margin-left:15%;
+	}
+
+	#copiar{
+		margin-left: 15%;
 	}
 
 	.atencao{
@@ -344,19 +347,19 @@ body{
 	#enviado, #recebido{
 		width: 250px;
 		height: 320px;
-		margin-left: 1%;
+		margin-left: 2%;
 		font-size: 150%;
 		margin-top: 5%;
 	}
 
 	.atencao{
 		font-size: 11px;
-		margin-left: 0%;
+		margin-left: 2%;
 		text-align: left;
 	}
 
 	.botoes{
-		width:80%;
+		width:60%;
 		height: 28px;
 		margin-left:0%;
 		font-size: 70%;
@@ -378,6 +381,6 @@ body{
 	#final{
 		font-size: 12px;
 		width: 90%;
-		margin-left: 0%;
+		margin-left: 2%;
 	}
 }
