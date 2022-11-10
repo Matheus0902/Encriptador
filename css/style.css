@@ -1,0 +1,98 @@
+body{
+	background-color: var(--bg-color);
+}
+
+:root{
+	--text-color: #01161e;
+	--button-color: #124559;
+	--bg-color: #aec3b0;
+	--footer-color: #598392;
+}
+
+#app{
+	width: fit-content;
+	margin: 30px auto 0 auto;
+}
+
+.top{
+	margin: 50px ;
+}
+
+.main{
+	display: flex;
+}
+
+.textField{
+	width: 420px;
+	height: 420px;
+	font-size: 200%;
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	border-style: none;
+	text-align: center;
+	margin: 30px 60px 0 70px;
+	outline: none;
+}
+
+.text{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.textTwo{
+	background-image: url(/assets/rindo.png);
+}
+
+
+.warning{
+	text-align: center;
+	font-size: 18px;
+	font-family: monospace;
+	color: var(--text-color);
+	margin: 10px 0 0 0;
+}
+
+.buttons{
+	width: 180px;
+	height: 30px;
+	color: #eff6e0;	
+	background: var(--button-color);
+	font-size: 15px;	
+	font-weight: bold;
+	border-style: none;
+	box-shadow: 10px 5px 5px black;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+#btEncrypt, #btDecrypt{
+	margin: 50px 10px 0 10px;
+	
+}
+
+#btCopy{
+	margin-top: 85px;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 150px;
+	background-color: var(--footer-color);
+	padding-top: 15px;
+}
+
+.networks{
+	height: 45px;
+	width: 45px;
+	margin-top: 2%;
+	box-shadow: 10px 5px 5px black;
+}
+
+#credits{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin: 15px 0 0 0;
+}

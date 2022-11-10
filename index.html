@@ -4,57 +4,53 @@
    <head>
       <meta charset ="utf-8">
       <title>ENCRIPTADOR</title>
-      <link rel="stylesheet" href="challeng.css">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="./css/responsive.css">
    </head>
    <body>
       <section>
-         <header class="alura">
-          
-            <a href="https://www.alura.com.br/"><img src="logoAlura.png" id="alura" class="media-object  img-responsive img-thumbnail"></a>
-     
+         <header class="top">
+            <a href="https://www.alura.com.br/"><img src="./assets/logoAlura.png"></a>
          </header>
-    </section>
+      </section>
 
-      <main class="main">
-         
-         <section>
-               <textarea type="text" id="enviado" value="" pattern="\([a-z]+)" placeholder="Digite sua mensagem..."></textarea>
+      <div id="app">
+
+         <main class="main">
             
-               <div>
-                  <h6 class="atencao">⚠ Apenas letras minúsculas e sem acento.</h6>
-               </div>
-               
-               <div>
-               
-                  <button class="botoes" type="button" onclick="criptografar()" id="botao1">CRIPTOGRAFAR</button>
-                  <button class="botoes" type="button" onclick="descriptografar()" id="botao2">DESCRIPTOGRAFAR</button>
-               </div>
+            <section class="text">
+                  <textarea class="textField" type="text" id="textOne" value="" pattern="\([a-z]+)" placeholder="Digite sua mensagem..."></textarea>
+                  
+                  <h6 class="warning">⚠ Apenas letras minúsculas e sem acento.</h6>
+                  
+                  <div>
+                     <button class="buttons" type="button" onclick="criptografar()" id="btEncrypt">CRIPTOGRAFAR</button>
+                     <button class="buttons" type="button" onclick="descriptografar()" id="btDecrypt">DESCRIPTOGRAFAR</button>
+                  </div>
+            </section>  
          
-         </section>  
-      
-         <section>
-               <textarea type="text" id="recebido" placeholder="Aguardando mensagem..."></textarea>
-         
-               <button class="botoes" type="button" onclick="copiar()" id="copiar" >COPIAR</button>
-         </section>
-
-      </main>
-       
-      <section>
-         
-         <div class="contas">  
-               <a href="https://www.linkedin.com/in/matheus-ant%C3%B4nio-6a2b6a218/"><img src="lin.png" id="linke" class="media-object  img-responsive img-thumbnail"></a>
-
-               <a href="https://github.com/Matheus0902"><img src="git.png" id="git" class="media-object  img-responsive img-thumbnail"></a>
+            <section class="text">
+                  <textarea class="textField" type="text" id="textTwo" placeholder="Aguardando mensagem..."></textarea>
             
-               <p id="final">Desenvolverdor do Projeto: Matheus Antonio | Challenge 01 Alura </p>
+                  <button class="buttons" type="button" onclick="copiar()" id="btCopy" >COPIAR</button>
+            </section>
+   
+         </main>
+
+      </div>
+
+      <section class="footer">
+            
+         <div>  
+               <a href="https://www.linkedin.com/in/matheus-ant%C3%B4nio-6a2b6a218/"><img src="./assets/lin.png" class="networks"></a>
+
+               <a href="https://github.com/Matheus0902"><img src="./assets/git.png" class="networks"></a>
          </div>
+         
+         <p id="credits">Desenvolverdor do Projeto: Matheus Antonio | Challenge 01 Alura </p>
 
       </section>
-         
-   <script type="text/Javascript" src="challeng.js"></script>
-
    </body>
-      
+      <script type="text/Javascript" src="js/index.js"></script>
 </html>
 
