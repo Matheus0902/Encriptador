@@ -39,10 +39,9 @@ body{
 	flex-direction: column;
 }
 
-.textTwo{
-	background-image: url(/assets/rindo.png);
+#textTwo{
+	background-image: url('./assets/rindo.png');
 }
-
 
 .warning{
 	text-align: center;
