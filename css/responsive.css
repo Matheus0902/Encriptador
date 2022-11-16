@@ -5,7 +5,7 @@
     }
 
     #app{
-        margin: 30px auto 0 auto;
+        margin: 50px auto 0 auto;
     }
     
     .main{
@@ -18,7 +18,7 @@
     }
 
     .warning{
-        font-size: 12px;
+        font-size: 13px;
     }
 
     #boxButtons{
@@ -42,6 +42,7 @@
 
     .footer{
         margin-top: 60px;
+        padding: 30px;
     }
 
     #credits{
@@ -62,11 +63,12 @@
     }
 
     .textField{
+        width: 350px;
         height: 420px;
     }
 
     .text{
-        margin: 0 50px;
+        margin: 0 20px;
     }
 
     #boxButtons{
@@ -87,7 +89,6 @@
     #btEncrypt, #btDecrypt{
         margin: 0px 10px;  
     }
-    
 }
 
 @media screen and (min-width: 1100px){

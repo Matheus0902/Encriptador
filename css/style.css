@@ -22,7 +22,6 @@ body{
 }
 
 .textField{
-	width: 420px;
 	height: 420px;
 	font-size: 1.7rem;
 	background-color: var(--bg-color);
@@ -40,8 +39,10 @@ body{
 }
 
 #textTwo{
-	background-image: url('./assets/rindo.png');
+	background-image: url('../assets/rindo.png');
+	background-position: center;
 }
+
 
 .warning{
 	text-align: center;
