@@ -9,9 +9,9 @@
 
 Este foi o meu primeiro projeto de autoria própria, foi desenvolvido com os conhecimentos que obtive no início dos meus estudos e logo após um tempo, pude aplicar melhorias ao código.
 
-## ☕ Usando  o <Encriptador>
+## ☕ Usando  o Encriptador
 
-Para usar o <Encriptador>, siga estes passos:
+Para usar o Encriptador, siga estes passos:
 
 ```
 1º No primeiro campo digite a mensagem que deseja criptografar/descriptografar; 
@@ -21,8 +21,6 @@ Para usar o <Encriptador>, siga estes passos:
 ```
 
 ## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 <table>
   <tr>
