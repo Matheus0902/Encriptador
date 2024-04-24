@@ -38,7 +38,7 @@ body{
 	flex-direction: column;
 }
 
-#textTwo{
+#messageSent{
 	background-image: url('../assets/rindo.png');
 	background-position: center;
 }

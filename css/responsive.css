@@ -1,9 +1,5 @@
 @media screen and (min-width: 0){
 
-    #divTop{
-        display: none;
-    }
-
     #app{
         margin: 50px auto 0 auto;
     }

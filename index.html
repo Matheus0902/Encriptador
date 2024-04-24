@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-   <head>
-      
+   <head> 
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,52 +10,51 @@
       <link rel="stylesheet" href="./css/style.css">
       <link rel="stylesheet" href="./css/responsive.css">
       <link rel="stylesheet" href="./css/reset.css">
-
+      
+      <script type="module" src="js/main.js" defer></script>
    </head>
    <body>
-      <div id="divTop">
-         <header class="top">
-            <a href="https://www.alura.com.br/"><img src="./assets/logoAlura.png"></a>
-         </header>
-      </div>
+      <header class="top">
+         <a href="https://www.alura.com.br/"><img src="./assets/logoAlura.png"></a>
+      </header>
 
       <div id="app">
 
          <main class="main">
             
             <section class="text">
-                  <textarea class="textField" type="text" id="textOne" value="" pattern="\([a-z]+)" placeholder="Digite sua mensagem..."></textarea>
+                  <textarea class="textField" type="text" id="messageReceived" value="" pattern="\([a-z]+)" placeholder="Digite sua mensagem..."></textarea>
                   
                   <h6 class="warning">⚠ Apenas letras minúsculas e sem acento.</h6>
                   
                   <div id="boxButtons">
-                     <button class="buttons" type="button" onclick="criptografar()" id="btEncrypt">CRIPTOGRAFAR</button>
-                     <button class="buttons" type="button" onclick="descriptografar()" id="btDecrypt">DESCRIPTOGRAFAR</button>
+                     <button class="buttons" type="button" id="encryptButton">CRIPTOGRAFAR</button>
+                     <button class="buttons" type="button" id="decryptButton">DESCRIPTOGRAFAR<button>
                   </div>
             </section>  
          
             <section class="text">
-                  <textarea class="textField" type="text" id="textTwo" placeholder="Aguardando mensagem..."></textarea>
+                  <textarea class="textField" type="text" id="messageSent" placeholder="Aguardando mensagem..."></textarea>
             
-                  <button class="buttons" type="button" onclick="copiar()" id="btCopy" >COPIAR</button>
+                  <button class="buttons" type="button" id="copyMessageButton" >COPIAR</button>
             </section>
    
          </main>
 
-      </div>
+      
 
-      <section class="footer">
+         <section class="footer">
+               
+            <div>  
+                  <a href="https://www.linkedin.com/in/matheus-ant%C3%B4nio-6a2b6a218/"><img src="./assets/lin.png" class="networks"></a>
+
+                  <a href="https://github.com/Matheus0902"><img src="./assets/git.png" class="networks"></a>
+            </div>
             
-         <div>  
-               <a href="https://www.linkedin.com/in/matheus-ant%C3%B4nio-6a2b6a218/"><img src="./assets/lin.png" class="networks"></a>
+            <p id="credits">Desenvolverdor do Projeto: Matheus Antonio | Challenge 01 Alura </p>
 
-               <a href="https://github.com/Matheus0902"><img src="./assets/git.png" class="networks"></a>
-         </div>
-         
-         <p id="credits">Desenvolverdor do Projeto: Matheus Antonio | Challenge 01 Alura </p>
-
-      </section>
+         </section>
+      </div>
    </body>
-      <script type="text/Javascript" src="js/challeng.js"></script>
 </html>
 
