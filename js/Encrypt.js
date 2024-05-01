@@ -16,8 +16,6 @@ export class Encrypt {
     const char = String.fromCharCode(e.keyCode);
         
     const pattern = '[a-z ]';
-
-    console.log(char.match(pattern))
     
     if(char.match(pattern)){
         return true; 
