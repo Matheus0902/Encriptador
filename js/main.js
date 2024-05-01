@@ -1,3 +1,3 @@
-import { Encrypt } from "./js/encrypt.js";
+import { Encrypt } from "./encrypt.js";
 
 new Encrypt("#app")
