@@ -3,8 +3,6 @@
 
 <img src="./assets/encriptador.png" alt="imagem do encriptador">
 
-> Encriptador desenvolvido em um desafio do programa One da Alura e Oracle. A finalidade do programa é criptografar e descriptografar mensagens.
-
 ### Ajustes e melhorias
 
 Este foi o meu primeiro projeto de autoria própria, foi desenvolvido com os conhecimentos que obtive no início dos meus estudos e logo após um tempo, pude aplicar melhorias ao código.
