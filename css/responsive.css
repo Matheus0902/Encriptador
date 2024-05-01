@@ -1,120 +1,54 @@
-@media screen and (min-width: 0){
+@media (min-width: 700px) {
+  .textField {
+    min-width: 32rem;
+    min-height: 33rem;
+    margin-top: 8rem;
+    font-size: 2rem;
+  }
 
-    #app{
-        margin: 50px auto 0 auto;
-    }
-    
-    .main{
-        flex-direction: column;
-    }
+  .textField::placeholder {
+    font-size: 2rem;
+  }
 
-    .textField{
-        width: 100%;
-        margin: 0;
-    }
+  #loading {
+    margin-top: 18rem;
+    margin-bottom: 9rem;
+  }
 
-    .warning{
-        font-size: 13px;
-    }
+  #loading img {
+    width: 25rem;
+  }
+  
+  #loading p {
+    width: 20rem;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+  }
 
-    #boxButtons{
-        display: flex;
-        flex-direction: column;
-        margin: 30px 0 50px 0;
-    }
+  #boxButtons {
+    gap: 1rem;
+  }
 
-    .buttons{
-        width: 330px;
-        height: 50px;
-    }
+  #boxButtons .buttons {
+    width: 15rem;
+	  height: 3.5rem;
+    font-size: 1.7rem;
 
-    #btEncrypt, #btDecrypt{
-        margin: 10px 0;
-    }
+    transition: .5s;
+  }
 
-    #btCopy{
-        margin-top: 50px;
-    }
+  section .buttons:hover{
+    --bg-button-color: #a4b0fd;
+    color: #000116;
+    transform: scale(1.1);
+  }
 
-    .footer{
-        margin-top: 60px;
-        padding: 30px;
-    }
+  footer div a img {
+    transition: .3s;
+  }
 
-    #credits{
-        text-align: center;
-        font-size: 14px;
-    }
+  footer div a img:hover {
+    transform: scale(1.1);
+  }
 
-}
-
-@media screen and (min-width: 768px){
-
-    #divTop{
-        display:block;
-    }
-
-    .main{
-        flex-direction: row;
-    }
-
-    .textField{
-        width: 350px;
-        height: 420px;
-    }
-
-    .text{
-        margin: 0 20px;
-    }
-
-    #boxButtons{
-        flex-direction: row;
-        margin: 30px 0 40px 0;
-    }
-
-    .warning{
-        font-size: 14px;
-    }
-
-    .buttons{
-        width: 160px;
-	    height: 30px;
-        font-size: 14px;
-    }
-
-    #btEncrypt, #btDecrypt{
-        margin: 0px 10px;  
-    }
-}
-
-@media screen and (min-width: 1100px){
-    
-    .textField{
-        width: 420px;
-        height: 420px;
-        margin: 30px 60px 0 70px;
-    }
-
-    .text{
-        margin: 0;
-    }
-
-    .warning{
-        font-size: 18px;
-    }
-
-    .buttons{
-        width: 180px;
-	    height: 30px;
-        font-size: 15px;
-    }
-
-    .footer{
-        margin-top: 150px;
-    }
-
-    #credits{
-        font-size: 18px;
-    }
-    
 }

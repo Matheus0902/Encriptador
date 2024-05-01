@@ -26,7 +26,7 @@ Para usar o Encriptador, siga estes passos:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="./assets/perfil.jpg" width="100px;" alt="Foto do Matheus Silva no GitHub"/><br>
+        <img src="./assets/profile.jpg" width="100px;" alt="Foto do Matheus Silva no GitHub"/><br>
         <sub>
           <b>Matheus Silva</b>
         </sub>

@@ -2,58 +2,34 @@
 
 <html lang="pt-br">
    <head> 
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>ENCRIPTADOR</title>
 
+      <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="./css/style.css">
       <link rel="stylesheet" href="./css/responsive.css">
-      <link rel="stylesheet" href="./css/reset.css">
-      
+
       <script type="module" src="js/main.js" defer></script>
    </head>
    <body>
-      <header class="top">
-         <a href="https://www.alura.com.br/"><img src="./assets/logoAlura.png"></a>
-      </header>
-
       <div id="app">
 
-         <main class="main">
-            
-            <section class="text">
-                  <textarea class="textField" type="text" id="messageReceived" value="" pattern="\([a-z]+)" placeholder="Digite sua mensagem..."></textarea>
-                  
-                  <h6 class="warning">⚠ Apenas letras minúsculas e sem acento.</h6>
-                  
-                  <div id="boxButtons">
-                     <button class="buttons" type="button" id="encryptButton">CRIPTOGRAFAR</button>
-                     <button class="buttons" type="button" id="decryptButton">DESCRIPTOGRAFAR<button>
-                  </div>
-            </section>  
-         
-            <section class="text">
-                  <textarea class="textField" type="text" id="messageSent" placeholder="Aguardando mensagem..."></textarea>
-            
-                  <button class="buttons" type="button" id="copyMessageButton" >COPIAR</button>
-            </section>
-   
-         </main>
+         <main class="main"></main>
 
-      
-
-         <section class="footer">
+         <footer>
                
             <div>  
-                  <a href="https://www.linkedin.com/in/matheus-ant%C3%B4nio-6a2b6a218/"><img src="./assets/lin.png" class="networks"></a>
-
-                  <a href="https://github.com/Matheus0902"><img src="./assets/git.png" class="networks"></a>
+               <a href="https://www.linkedin.com/in/matheus-ant%C3%B4nio-6a2b6a218/" target="_blank"><img src="./assets/lin.png"></a>
+               <a href="https://github.com/Matheus0902" target="_blank"><img src="./assets/git.png"></a>
             </div>
-            
-            <p id="credits">Desenvolverdor do Projeto: Matheus Antonio | Challenge 01 Alura </p>
-
-         </section>
+            <p >Desenvolvido por Matheus Antonio</p>
+         
+         </footer>
       </div>
    </body>
 </html>
