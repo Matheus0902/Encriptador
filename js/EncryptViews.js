@@ -59,7 +59,7 @@ export class EncryptViews {
           <textarea disabled class="textField" type="text" id="messageSent" placeholder="Aguardando mensagem..."></textarea>
           
           <div id="boxButtons">
-            <button class="buttons" type="button" id="returnButton">VOlTAR</button>
+            <button class="buttons" type="button" id="returnButton">VOLTAR</button>
 
             <button class="buttons" type="button" id="copyMessageButton" >COPIAR</button>
           </div>
