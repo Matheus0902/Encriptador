@@ -1,5 +1,5 @@
-import { EncryptViews } from "./EncryptViews.js"
-import { elements } from "./Elements.js"
+import { EncryptViews } from "../js/EncryptViews.js"
+import { elements } from "../js/Elements.js"
 
 const encryptViews = new EncryptViews('#app')
 

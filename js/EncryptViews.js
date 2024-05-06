@@ -1,5 +1,5 @@
-import { elements } from "./Elements.js"
-import * as sounds from "./Sounds.js"
+import { elements } from "../js/Elements.js"
+import * as sounds from "../js/Sounds.js"
 
 export class EncryptViews {
   constructor(root) {
