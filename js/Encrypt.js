@@ -1,4 +1,3 @@
-import { EncryptViews } from "../js/EncryptViews.js"
 import { elements } from "../js/Elements.js"
 
 export class Encrypt {
