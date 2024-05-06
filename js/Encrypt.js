@@ -1,8 +1,6 @@
 import { EncryptViews } from "../js/EncryptViews.js"
 import { elements } from "../js/Elements.js"
 
-const encryptViews = new EncryptViews('#app')
-
 export class Encrypt {
   constructor(root) {
     elements.home = true
