@@ -7,7 +7,6 @@ export class Encrypt {
   constructor(root) {
     elements.home = true
     this.root = document.querySelector(root)
-    encryptViews.displayUpdate('')
     this.filterChar()
   }
 
