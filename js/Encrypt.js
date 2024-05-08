@@ -1,4 +1,4 @@
-import { elements } from "../js/Elements.js"
+import { elements } from "./Elements.js"
 
 export class Encrypt {
   constructor(root) {

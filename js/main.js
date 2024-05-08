@@ -1,5 +1,5 @@
-import { Encrypt } from "../js/encrypt.js";
-import { EncryptViews } from "../js/EncryptViews.js";
+import { Encrypt } from "./encrypt.js";
+import { EncryptViews } from "./EncryptViews.js";
 
 new Encrypt("#app")
 new EncryptViews("#app")
