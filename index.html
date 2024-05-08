@@ -21,7 +21,22 @@
    <body>
       <div id="app">
 
-         <main class="main"></main>
+         <main class="main">
+
+            <section>
+               <label for="#messageReceived" class="sr-only">Digite o texto que deseja criptografar/descriptografar</label>
+               <textarea class="textField" type="text" id="messageReceived" placeholder="Digite seu texto..."></textarea>
+                              
+               <p>⚠ Apenas letras minúsculas e sem acento.</p>
+                  
+               <div id="boxButtons">
+                  <button class="buttons" type="button" id="encryptButton">CRIPTOGRAFAR</button>
+
+                  <button class="buttons" type="button"id="decryptButton">DESCRIPTOGRAFAR</button>
+               </div>
+            </section>
+            
+         </main>
 
          <footer>
                

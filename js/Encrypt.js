@@ -7,6 +7,7 @@ export class Encrypt {
     this.filterChar()
   }
 
+
   checkChar(e) {
     
     const char = String.fromCharCode(e.keyCode);

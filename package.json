@@ -1,7 +1,6 @@
 {
   "name": "encriptador",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "lite-server"
@@ -11,5 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "lite-server": "^2.6.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

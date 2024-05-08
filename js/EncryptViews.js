@@ -4,9 +4,29 @@ import * as sounds from "../js/Sounds.js"
 export class EncryptViews {
   constructor(root) {
     this.root = document.querySelector(root)
-
+    this.actions()
     this.main = document.querySelector('main')
 
+  }
+
+  actions() {
+    const encryptButton = document.querySelector('#encryptButton')
+    encryptButton.onclick = () => { 
+      
+      elements.action = 'criptografando...'
+      elements.home = false
+      elements.display = 'b'
+      this.encryptMessage()
+    }
+
+    const decryptButton = document.querySelector('#decryptButton')
+    decryptButton.onclick = () => {
+      
+      elements.action = 'descriptografando...'
+      elements.home = false
+      elements.display = 'b'
+      this.decryptMessage()
+    }
   }
   
   removeAllSections() {
